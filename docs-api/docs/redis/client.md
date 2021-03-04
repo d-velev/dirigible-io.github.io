@@ -1,8 +1,8 @@
 ---
-title: MongoDB Client API
+title: Redis Client API
 ---
 
-# MongoDB Client API
+# Redis Client API
 
 The Redis Client gives access to a [Redis](https://www.redis.io/) server.
 
@@ -11,8 +11,8 @@ The Redis Client gives access to a [Redis](https://www.redis.io/) server.
 - Module: `redis/client`
 - Alias: `redis/client`
 - Definition: [https://github.com/eclipse/dirigible/issues/723](https://github.com/eclipse/dirigible/issues/723)
-- Source: [/mongodb/client.js](https://github.com/dirigiblelabs/ext-mongodb/blob/master/redis/client.js)
-- Facade: [MongoDBFacade](https://github.com/eclipse/dirigible/blob/master/api/api-facade/api-redis/src/main/java/org/eclipse/dirigible/api/redis/RedisFacade.java)
+- Source: [/redis/client.js](https://github.com/dirigiblelabs/ext-redis/blob/master/redis/client.js)
+- Facade: [RedisFacade](https://github.com/eclipse/dirigible/blob/master/api/api-facade/api-redis/src/main/java/org/eclipse/dirigible/api/redis/RedisFacade.java)
 - Status: `alpha`
 
 ### Basic Usage
